@@ -31,7 +31,7 @@ html {
   gap: 30px;
 }
 
-.title {
+.titlen {
   font-family: Oswald;
   font-weight: 700;
   font-style: Bold;
@@ -169,7 +169,7 @@ input:focus,
   outline: 1px solid white;
 }
 
-button {
+.button {
   border: 1px solid white;
   color: white;
   font-family: inherit;
@@ -223,6 +223,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  flex-grow: 1;
 }
 
 .content__video-card-title {
@@ -230,9 +231,9 @@ button {
   font-style: Bold;
   font-size: 30px;
   text-transform: uppercase;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: nowrap;  
+  overflow: hidden;      
+  text-overflow: ellipsis;  
   width: 196px;
 }
 
@@ -286,10 +287,6 @@ button {
   min-width: 194px;
   object-fit: cover;
   object-position: center;
-}
-
-.content__video-card-description-container {
-  flex-grow: 1;
 }
 
 .content__card-link_current {
