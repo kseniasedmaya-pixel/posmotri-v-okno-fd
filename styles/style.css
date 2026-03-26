@@ -161,7 +161,7 @@ input:focus,
 }
 
 .search-form__label:hover .search-form__label-text {
-  text-decoration: underline; 
+  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -233,7 +233,7 @@ input:focus,
   text-transform: uppercase;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;  
+  text-overflow: ellipsis; 
   width: 196px;
 }
 
