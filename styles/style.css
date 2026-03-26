@@ -233,8 +233,8 @@ input:focus,
   text-transform: uppercase;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; 
   width: 196px;
+  text-overflow: ellipsis;
 }
 
 .content__video-card-description {
