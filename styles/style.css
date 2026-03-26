@@ -231,8 +231,8 @@ input:focus,
   font-style: Bold;
   font-size: 30px;
   text-transform: uppercase;
-  white-space: nowrap;  
-  overflow: hidden;      
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;  
   width: 196px;
 }
