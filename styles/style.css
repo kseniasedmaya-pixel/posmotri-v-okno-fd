@@ -72,7 +72,7 @@ ol {
 }
 
 .result {
-  padding-top: 78px;
+  margin-top: 78px;
   display: flex;
   flex-direction: column;
   gap: 16px;
